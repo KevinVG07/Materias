@@ -3,3 +3,9 @@ jdk:
   - oraclejdk11
 
 script: ant build
+notifications:
+  email:
+    recipients:
+      - kevinvg08@gmail.com
+    on_success: change # default: change
+    on_failure: always # default: always
