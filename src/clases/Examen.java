@@ -2,6 +2,7 @@ package clases;
 
 public class Examen {
 	private Integer nota;
+	private Integer nohacenada;
 	
 	public Examen()
 	{
